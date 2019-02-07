@@ -1,0 +1,24 @@
+2019-02-06 21:01:16.417+0000 WARN  ha.pull_interval is deprecated.
+2019-02-06 21:01:16.490+0000 INFO  ======== Neo4j 3.5.0 ========
+2019-02-06 21:01:16.502+0000 INFO  Starting...
+2019-02-06 21:01:25.488+0000 INFO  Initiating metrics...
+2019-02-06 21:01:33.440+0000 INFO  Sending metrics to CSV file at C:\Users\정경원\Documents\neo4j\neo4jDatabases\database-4299d937-932b-418b-bcef-77bbaa86cca5\installation-3.5.0\metrics
+2019-02-06 21:01:36.664+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.all)
+2019-02-06 21:01:36.679+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.idle)
+2019-02-06 21:01:44.685+0000 INFO  Bolt enabled on 127.0.0.1:11001.
+2019-02-06 21:01:49.620+0000 INFO  Started.
+2019-02-06 21:01:50.134+0000 INFO  Mounted REST API at: /db/manage
+2019-02-06 21:01:50.281+0000 INFO  Server thread metrics have been registered successfully
+2019-02-06 21:01:52.464+0000 INFO  Remote interface available at http://localhost:11002/
+2019-02-06 21:19:02.780+0000 WARN  ha.pull_interval is deprecated.
+2019-02-06 21:19:02.853+0000 INFO  ======== Neo4j 3.5.0 ========
+2019-02-06 21:19:02.862+0000 INFO  Starting...
+2019-02-06 21:19:10.485+0000 INFO  Initiating metrics...
+2019-02-06 21:19:17.740+0000 INFO  Sending metrics to CSV file at C:\Users\정경원\Documents\neo4j\neo4jDatabases\database-4299d937-932b-418b-bcef-77bbaa86cca5\installation-3.5.0\metrics
+2019-02-06 21:19:21.161+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.all)
+2019-02-06 21:19:21.178+0000 WARN  Server thread metrics not available (missing neo4j.server.threads.jetty.idle)
+2019-02-06 21:19:26.664+0000 INFO  Bolt enabled on 127.0.0.1:11001.
+2019-02-06 21:19:31.073+0000 INFO  Started.
+2019-02-06 21:19:31.548+0000 INFO  Mounted REST API at: /db/manage
+2019-02-06 21:19:31.707+0000 INFO  Server thread metrics have been registered successfully
+2019-02-06 21:19:33.960+0000 INFO  Remote interface available at http://localhost:11002/
