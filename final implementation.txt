@@ -1,0 +1,372 @@
+#create team-
+CREATE(t1:team{name:"England", rank:1, winning_average:20.0, best_player:"Moeen_Ali"}) 
+
+CREATE(t2:team{name:"Australia", rank:2, winning_average:30.0, best_player:"Time_Paine"})
+
+CREATE(t3:team{name:"India", rank:3, winning_average:21.0, best_player:"Alex"}) 
+
+CREATE(t4:team{name:"Germany", rank:4, winning_average:25.0, best_player:"Ash"}) 
+
+#create australia players-
+CREATE(p16:player{name: "Time_Paine", nationality: "Australia", date_of_birth:"1997-10-01", position: "Batter", StrikeType:"Drive", BallType: "LegSpin ", fieldType :"Caught", height: 190, matches_played: 5, innings_played:10, runs: 500, fours:10,sixs:10,balls:300,weekly_wage:1500})
+
+CREATE(p17:player{name: "Aaron_Finch", nationality: "Australia", date_of_birth:"1997-11-01", position: "Batter", StrikeType:"Defense", BallType: "LegSpin ", fieldType :"Caught", height: 191, matches_played: 15, innings_played:15, runs: 300, fours:20,sixs:10,balls:200,weekly_wage:1800})
+
+CREATE(p18:player{name: "Ashton_Agar", nationality: "Australia", date_of_birth:"1997-10-03", position: "Batter", StrikeType:"Hook", BallType: "LegSpin", fieldType :"Caught", height: 189, matches_played: 20, innings_played:10, runs: 500, fours:10,sixs:10,balls:300,weekly_wage:1500})
+
+CREATE(p19:player{name: "Alex_Carey", nationality: "Australia", date_of_birth:"1997-09-11", position: "Batter", StrikeType:"Drive", BallType: "OffSpin", fieldType : "Caught", height: 198, matches_played: 50, innings_played:53, runs: 400, fours:60,sixs:30,balls:600,weekly_wage:3000})
+
+CREATE(p20:player{name: "Travis_Head", nationality: "Australia", date_of_birth:"1996-07-01", position: "Batter", StrikeType:"Defense", BallType: "OffSpin", fieldType :"Caught", height: 195, matches_played: 49, innings_played:50, runs: 700, fours:30,sixs:15,balls:700,weekly_wage:1900})
+
+CREATE(p21:player{name: "Nathan_Lyon", nationality: "Australia", date_of_birth:"1990-06-01", position: "Bowler", StrikeType:"Defense", BallType: "LegSpin", fieldType :"Caught", height: 195, matches_played: 30, innings_played:15, runs: 200, fours:10,sixs:15,balls:200,weekly_wage:1300})
+
+CREATE(p22:player{name: "Glenn_Maxwell", nationality: "Australia", date_of_birth:"1999-09-21", position: "Bowler", StrikeType:" Defense ", BallType: "Fast", fieldType :"HitWickets", height: 199, matches_played: 89, innings_played:70, runs: 800, fours:60,sixs:30,balls:700,weekly_wage:2000})
+
+CREATE(p23:player{name: "Shaun_Marsh", nationality: "Australia", date_of_birth:"1994-01-01", position: "Bowler", StrikeType:"Hook", BallType: "LegSpin", fieldType :"HitWickets", height: 192, matches_played: 49, innings_played:50, runs: 600, fours:30,sixs:15,balls:520,weekly_wage:1000})
+
+CREATE(p24:player{name: "Jhye_Richardson", nationality: "Australia", date_of_birth:"1998-10-22", position: "Bowler", StrikeType:"Defense ", BallType: "Fast", fieldType :"HitWickets", height: 195, matches_played: 30, innings_played:10, runs: 556, fours:25,sixs:15,balls:661,weekly_wage:1100})
+
+CREATE(p25:player{name: "Kane_Richardson", nationality: "Australia", date_of_birth:"1998-12-12", position: "Bowler", StrikeType:" Defense ", BallType: "LegSpin", fieldType :"HitWickets",height: 196, matches_played: 30, innings_played:10, runs: 556, fours:25,sixs:15,balls:661,weekly_wage:1100})
+
+CREATE(p26:player{name: "Andrew_Tye", nationality: "Australia", date_of_birth:"1992-08-08", position: "Wicker", StrikeType:"Drive", BallType: "LegSpin", fieldType :" HitWickets", height: 198, matches_played: 20, innings_played:15, runs: 336, fours:26,sixs:15,balls:668,weekly_wage:1500})
+
+#create england players-
+CREATE(p1:player{name: "Eoin_Morgan", nationality: "England", date_of_birth:"1998-10-21", position: "Wicker", StrikeType:"Defense", BallType: "OffSpin", fieldType :"Caught", height: 180, matches_played: 9, innings_played:10, runs: 500, fours:10,sixs:10,balls:300,weekly_wage:1500}) 
+
+CREATE(p2:player{name: "Moeen_Ali", nationality: "England", date_of_birth:"1998-06-21", position: "Wicker", StrikeType:"Hook", BallType: "LegSpin", fieldType: "Caught", height: 177, matches_played: 10, innings_played:3, runs: 300, fours:4,sixs:5,balls:400,weekly_wage:2000})
+
+CREATE(p3:player{name: "Jonny_Bairstow", nationality: "England", position: "Batter", StrikeType:"Defense", BallType: "LegSpin", fieldType : "Caught",height: 190, matches_played: 5, innings_played:10, runs: 500, fours:10,sixs:10,balls:300,weekly_wage:1500})
+
+CREATE(p4:player{name: "Jos_Buttler", nationality: "England", position: "Batter", StrikeType:"Defense", BallType: "LegSpin", fieldType : "Caught", height: 191, matches_played: 15, innings_played:15, runs: 300, fours:20,sixs:10,balls:200,weekly_wage:1800})
+
+CREATE(p5:player{name: "Tom_Curran", nationality: "England", date_of_birth:"1993-10-10", position: "Batter", StrikeType:" Defense ", BallType: "Fast", fieldType : "Caught" , height: 189, matches_played: 20, innings_played:10, runs: 500, fours:10,sixs:10,balls:300,weekly_wage:1500})
+
+CREATE(p6:player{name: "Alex_Hales", nationality: "England",date_of_birth:"1992-10-10", position: "Batter", StrikeType:"Defense", BallType: "Fast", fieldType : "Caught", height: 198, matches_played: 50, innings_played:53, runs: 400, fours:60,sixs:30,balls:600,weekly_wage:3000})
+
+CREATE(p7:player{name: "Liam_Plunkett", nationality: "England",date_of_birth:"1989-08-10", position: "Batter", StrikeType:"Hook", BallType: "Fast", fieldType : "Caught", height: 195, matches_played: 49, innings_played:50, runs: 700, fours:30,sixs:15,balls:700,weekly_wage:1900})
+
+CREATE(p8:player{name: "Adil_Rashid", nationality: "England", date_of_birth:"1988-02-12",position: "Bowler", StrikeType:"Drive", BallType: "Fast", fieldType : "Caught", height: 195, matches_played: 30, innings_played:15, runs: 200, fours:10,sixs:15,balls:200,weekly_wage:1300})
+
+CREATE(p9:player{name: "Joe_Root", nationality: "England", date_of_birth:"1998-02-28",position: "Bowler", StrikeType:"Drive", BallType: "LegSpin", fieldType : "Caught", height: 199, matches_played: 89, innings_played:70, runs: 800, fours:60,sixs:30,balls:700,weekly_wage:2000})
+
+CREATE(p10:player{name: "Jason_Roy", nationality: "England", date_of_birth:"1991-09-16",position: "Bowler", StrikeType:"Drive", BallType: "Fast", fieldType : "Caught", height: 192, matches_played: 49, innings_played:50, runs: 600, fours:30,sixs:15,balls:520,weekly_wage:1000})
+
+CREATE(p11:player{name: "Mark_Wood", nationality: "England", date_of_birth:"1994-11-11",position: "Bowler", StrikeType:"Hook", BallType: "Fast", fieldType : "Caught", height: 195, matches_played: 30, innings_played:10, runs: 556, fours:25,sixs:15,balls:661,weekly_wage:1100})
+
+#create relationship "in_time" between players and England Team-
+MATCH(p1:player{name:"Eoin_Morgan"}),(t1:team{name:"England"})
+CREATE(p1)-[r:in_team]->(t1)
+
+MATCH(p2:player{name:"Moeen_Ali"}),(t1:team{name:"England"})
+CREATE(p2)-[r:in_team]->(t1)
+
+MATCH(p3:player{name:"Jonny_Bairstow"}),(t1:team{name:"England"})
+CREATE(p3)-[r:in_team]->(t1)
+
+MATCH(p4:player{name:"Jos_Buttler"}),(t1:team{name:"England"})
+CREATE(p4)-[r:in_team]->(t1)
+
+MATCH(p5:player{name:"Tom_Curran"}),(t1:team{name:"England"})
+CREATE(p5)-[r:in_team]->(t1)
+
+MATCH(p6:player{name:"Alex_Hales"}),(t1:team{name:"England"})
+CREATE(p6)-[r:in_team]->(t1)
+
+MATCH(p7:player{name:"Liam_Plunkett"}),(t1:team{name:"England"})
+CREATE(p7)-[r:in_team]->(t1)
+
+MATCH(p8:player{name:"Adil_Rashid"}),(t1:team{name:"England"})
+CREATE(p8)-[r:in_team]->(t1)
+
+MATCH(p9:player{name:"Joe_Root"}),(t1:team{name:"England"})
+CREATE(p9)-[r:in_team]->(t1)
+
+MATCH(p10:player{name:"Jason_Roy"}),(t1:team{name:"England"})
+CREATE(p10)-[r:in_team]->(t1)
+
+MATCH(p11:player{name:"Mark_Wood"}),(t1:team{name:"England"})
+CREATE(p11)-[r:in_team]->(t1)
+
+MATCH(p12:player{name:"Marsh"}),(t1:team{name:"England"})
+CREATE(p12)-[r:in_team]->(t1)
+
+MATCH(p13:player{name:"Lyon"}),(t1:team{name:"England"})
+CREATE(p13)-[r:in_team]->(t1)
+
+MATCH(p14:player{name:"Harris"}),(t1:team{name:"England"})
+CREATE(p14)-[r:in_team]->(t1)
+
+MATCH(p15:player{name:"Starc"}),(t1:team{name:"England"})
+CREATE(p15)-[r:in_team]->(t1)
+
+#create relationship "in_time" between players and australia-
+MATCH(p16:player{name:"Time_Paine"}),(t2:team{name:"Australia"})
+CREATE(p16)-[r:in_team]->(t2)
+
+MATCH(p17:player{name:"Aaron_Finch"}),(t2:team{name:"Australia"})
+CREATE(p17)-[r:in_team]->(t2)
+
+MATCH(p18:player{name:"Ashton_Agar"}),(t2:team{name:"Australia"})
+CREATE(p18)-[r:in_team]->(t2)
+
+MATCH(p19:player{name:"Alex_Carey"}),(t2:team{name:"Australia"})
+CREATE(p19)-[r:in_team]->(t2)
+
+MATCH(p20:player{name:"Travis_Head"}),(t2:team{name:"Australia"})
+CREATE(p20)-[r:in_team]->(t2)
+
+MATCH(p21:player{name:"Nathan_Lyon"}),(t2:team{name:"Australia"})
+CREATE(p21)-[r:in_team]->(t2)
+
+MATCH(p22:player{name:"Glenn_Maxwell"}),(t2:team{name:"Australia"})
+CREATE(p22)-[r:in_team]->(t2)
+
+MATCH(p23:player{name:"Shaun_Marsh"}),(t2:team{name:"Australia"})
+CREATE(p23)-[r:in_team]->(t2)
+
+MATCH(p24:player{name:"Jhye_Richardson"}),(t2:team{name:"Australia"})
+CREATE(p24)-[r:in_team]->(t2)
+
+MATCH(p25:player{name:"Kane_Richardson"}),(t2:team{name:"Australia"})
+CREATE(p25)-[r:in_team]->(t2)
+
+MATCH(p26:player{name:"Andrew_Tye"}),(t2:team{name:"Australia"})
+CREATE(p26)-[r:in_team]->(t2)
+
+MATCH(p27:player{name:"Wood"}),(t2:team{name:"Australia"})
+CREATE(p27)-[r:in_team]->(t2)
+
+MATCH(p28:player{name:"Roy"}),(t2:team{name:"Australia"})
+CREATE(p28)-[r:in_team]->(t2)
+
+MATCH(p29:player{name:"Malan"}),(t2:team{name:"Australia"})
+CREATE(p29)-[r:in_team]->(t2)
+
+MATCH(p30:player{name:"Denly"}),(t2:team{name:"Australia"})
+CREATE(p30)-[r:in_team]->(t2)
+
+#create coach-
+CREATE(c1:coach{name: "Steven", nationality: "England",date_of_birth:"1973-11-10"})
+CREATE(c2:coach{name: "Lynn", nationality: "England",date_of_birth:"1972-05-14"})
+
+CREATE(c3:coach{name: "Roy", nationality: "Australia",date_of_birth:"1973-11-10"})
+CREATE(c4:coach{name: "Hales", nationality: "Australia",date_of_birth:"1978-12-12"})
+
+#create relationship "in_team" between coach and england team-
+MATCH(c1:coach{name:"Steven"}),(t1:team{name:"England"})
+CREATE(c1)-[r:in_team]->(t1)
+
+MATCH(c2:coach{name:"Lynn"}),(t1:team{name:"England"})
+CREATE(c2)-[r:in_team]->(t1)
+
+#create relationship "in_team" between coach and australia team-
+MATCH(c3:coach{name:"Roy"}),(t2:team{name:"Australia"})
+CREATE(c3)-[r:in_team]->(t2)
+
+MATCH(c4:coach{name:"Hales"}),(t2:team{name:"Australia"})
+CREATE(c4)-[r:in_team]->(t2)
+
+#create schedule "World Championship"-
+CREATE(s:schedule{category:"World Championship"})
+
+#create match in progress-
+CREATE(m1:matches{name:"Eng-Aus",category:"World Championship",teamAname:"England",teamBname:"Australia",date:"2019-09-10",
+start_time:"09:00:00", end_time:"17:00:00",location:"London",umpire:"Tom",umpire:"Sam",teamAruns:0,teamBruns:0})
+
+MATCH(s:schedule{category:"World Championship"}),(m1:matches{name:"Eng-Aus"})
+CREATE(s)-[r:contains]->(m1)
+
+MATCH(t1:team{name:"England"}),(m1:matches{name:"Eng-Aus"})
+CREATE(t1)-[r:playes]->(m1)
+
+MATCH(t2:team{name:"Australia"}),(m1:matches{name:"Eng-Aus"})
+CREATE(t2)-[r:playes]->(m1)
+
+MATCH(s:schedule{category:"World Championship"}),(t1:team{name:"England"})
+CREATE(s)-[r:contains]->(t1)
+
+MATCH(s:schedule{category:"World Championship"}),(t2:team{name:"Australia"})
+CREATE(s)-[r:contains]->(t2)
+
+#create past match-
+CREATE(m3:matches{name:"Ind-Eng",category:"World Championship",teamAname:"India",teamBname:"England",date:"2019-09-08",
+start_time:"09:00:00", end_time:"17:00:00",location:"London",umpire:"Tom",teamAruns:200,teamBruns:100})
+
+MATCH(s:schedule{category:"World Championship"}),(m3:matches{name:"Ind-Eng"})
+CREATE(s)-[r:contains]->(m3)
+
+MATCH(t1:team{name:"England"}),(m3:matches{name:"Ind-Eng"})
+CREATE(t1)-[r:playes]->(m3)
+
+MATCH(t3:team{name:"India"}),(m3:matches{name:"Ind-Eng"})
+CREATE(t3)-[r:playes]->(m3)
+
+CREATE(m2:matches{name:"Ind-Aus",category:"World Championship",teamAname:"India",teamBname:"Australia",date:"2019-09-09",
+start_time:"09:00:00", end_time:"17:00:00",location:"London",umpire:"Sam",teamAruns:150,teamBruns:100})
+
+MATCH(s:schedule{category:"World Championship"}),(m2:matches{name:"Ind-Aus"})
+CREATE(s)-[r:contains]->(m2)
+
+MATCH(t3:team{name:"India"}),(m2:matches{name:"Ind-Aus"})
+CREATE(t3)-[r:playes]->(m2)
+
+MATCH(t2:team{name:"Australia"}),(m2:matches{name:"Ind-Aus"})
+CREATE(t2)-[r:playes]->(m2)
+
+#create upcoming match-
+CREATE(m4:matches{name:"Ger-Aus",category:"World Championship",teamAname:"Germany",teamBname:"Australia",date:"2019-09-12",
+start_time:"09:00:00", end_time:"00:00:00",location:"London",umpire:"Sam",teamAruns:0,teamBruns:0})
+
+MATCH(s:schedule{category:"World Championship"}),(m4:matches{name:"Ger-Aus"})
+CREATE(s)-[r:contains]->(m4)
+
+MATCH(t4:team{name:"Germany"}),(m4:matches{name:"Ger-Aus"})
+CREATE(t4)-[r:playes]->(m4)
+
+MATCH(t2:team{name:"Australia"}),(m4:matches{name:"Ger-Aus"})
+CREATE(t2)-[r:playes]->(m4)
+
+CREATE(m5:matches{name:"Ind-Ger",category:"World Championship",teamAname:"India",teamBname:"Germany",date:"2019-09-13",
+start_time:"09:00:00", end_time:"00:00:00",location:"London",umpire:"Sam",teamAruns:0,teamBruns:0})
+
+MATCH(s:schedule{category:"World Championship"}),(m5:matches{name:"Ind-Ger"})
+CREATE(s)-[r:contains]->(m5)
+
+MATCH(t3:team{name:"India"}),(m5:matches{name:"Ind-Ger"})
+CREATE(t3)-[r:playes]->(m5)
+
+MATCH(t4:team{name:"Germany"}),(m5:matches{name:"Ind-Ger"})
+CREATE(t4)-[r:playes]->(m5)
+
+CREATE(m6:matches{name:"Ger-Eng",category:"World Championship",teamAname:"Germany",teamBname:"England",date:"2019-09-14",
+start_time:"09:00:00", end_time:"00:00:00",location:"London",umpire:"Sam",teamAruns:0,teamBruns:0})
+
+MATCH(s:schedule{category:"World Championship"}),(m6:matches{name:"Ger-Eng"})
+CREATE(s)-[r:contains]->(m6)
+
+MATCH(t1:team{name:"England"}),(m6:matches{name:"Ger-Eng"})
+CREATE(t1)-[r:playes]->(m6)
+
+MATCH(t4:team{name:"Germany"}),(m6:matches{name:"Ger-Eng"})
+CREATE(t4)-[r:playes]->(m6)
+
+#create relationship "view" between coach and schedule-
+MATCH(c1:coach{name:"Steven"}),(s:schedule{category:"World Championship"})
+CREATE(c1)-[r:view]->(s)
+
+MATCH(c2:coach{name:"Lynn"}),(s:schedule{category:"World Championship"})
+CREATE(c2)-[r:view]->(s)
+
+MATCH(c3:coach{name:"Roy"}),(s:schedule{category:"World Championship"})
+CREATE(c3)-[r:view]->(s)
+
+MATCH(c4:coach{name:"Hales"}),(s:schedule{category:"World Championship"})
+CREATE(c4)-[r:view]->(s)
+
+#create relationship "view" between coach and matches-
+MATCH(c1:coach{name:"Steven"}),(m1:matches{name:"Eng-Aus"})
+CREATE(c1)-[r:view]->(m1)
+
+MATCH(c2:coach{name:"Lynn"}),(m1:matches{name:"Eng-Aus"})
+CREATE(c2)-[r:view]->(m1)
+
+MATCH(c3:coach{name:"Roy"}),(m1:matches{name:"Eng-Aus"})
+CREATE(c3)-[r:view]->(m1)
+
+MATCH(c4:coach{name:"Hales"}),(m1:matches{name:"Eng-Aus"})
+CREATE(c4)-[r:view]->(m1)
+
+#create training plan by session- 
+CREATE(t1:training{name:"Training_Plan",location:"London"}) 
+
+CREATE (s1:session{name:"Session1",date:"2019-2-10",start_time:"09:00:00", end_time:"13:00:00",location:"London", training_type:"Net_Practice", completed_number:"7", compulsory_number:"7" })
+
+CREATE (s2:session{name:"Session2",date:"2019-2-11",start_time:"09:00:00", end_time:"13:00:00",location:"London", training_type:"Fielding_Drills", completed_number:"0", compulsory_number:"20" })
+
+CREATE (s3:session{name:"Session3",date:"2019-2-12",start_time:"09:00:00", end_time:"13:00:00",location:"London", training_type:"Bowling_Practice", completed_number:"0", compulsory_number:"50"})
+
+#create relationship between training plan and sessions-
+MATCH(t1:training{name:"Training_Plan"}),(s1:session{name:"Session1"})
+CREATE(t1)-[r:contains]->(s1) 
+
+MATCH(t1:training{name:"Training_Plan"}),(s2:session{name:"Session2"})
+CREATE(t1)-[r:contains]->(s2) 
+
+MATCH(t1:training{name:"Training_Plan"}),(s3:session{name:"Session3"})
+CREATE(t1)-[r:contains]->(s3) 
+
+MATCH(s2:session{name:"Session2"}),(s3:session{name:"Session3"})
+CREATE(s2)-[r:complete]->(s3) 
+
+MATCH(s1:session{name:"Session1"}),(s2:session{name:"Session2"})
+CREATE(s1)-[r:complete]->(s2) 
+
+#create relation "use" between team and training plan
+MATCH(t1:team{name:"England"}),(t:training{name:"Training_Plan"})
+CREATE(t1)-[r:view]->(t)
+
+#create audience 
+CREATE(a1:audience{name:"Jisu"})
+
+#create relation "view" between audience and match-
+MATCH(m1:matches{name:"Eng-Aus"}),(a1:audience{name:"Jisu"})
+CREATE(a1)-[r:view]->(m1)
+
+#create relation "view" between audience and team-
+MATCH(t1:team{name:"England"}),(a1:audience{name:"Jisu"})
+CREATE(a1)-[r:view]->(t1)
+
+#create relation "view" between audience and player-
+MATCH(p1:player{name:"Eoin_Morgan"}),(a1:audience{name:"Jisu"})
+CREATE(a1)-[r:view]->(p1)
+
+#
+LOAD CSV WITH HEADERS FROM 'file:///batter.csv' AS csvLine
+MATCH (m1:matches{name:"Eng-Aus"})
+WHERE csvLine.team = m1.teamAname
+WITH m1,csvLine, toInt(csvLine.run_score) as runs
+WITH m1,sum(runs) as total_runs
+set m1.teamAruns = total_runs
+return total_runs
+
+LOAD CSV WITH HEADERS FROM 'file:///batter.csv' AS csvLine
+MATCH (m1:matches{name:"Eng-Aus"})
+WHERE csvLine.team = m1.teamBname
+WITH m1,csvLine, toInt(csvLine.run_score) as runs
+WITH m1,sum(runs) as total_runs
+set m1.teamBruns = total_runs
+return total_runs
+
+LOAD CSV WITH HEADERS FROM 'file:///bowler.csv' AS csvLine
+MATCH (m1:matches{name:"Eng-Aus"})
+WITH m1,csvLine, min(TIME(csvLine.time)) as time
+WITH m1,min(time) as starttime
+set m1.start_time = starttime
+return m1
+
+LOAD CSV WITH HEADERS FROM 'file:///batter.csv' AS csvLine
+MATCH (m1:matches{name:"Eng-Aus"})
+WITH m1,csvLine, max(TIME(csvLine.time)) as time
+WITH m1,max(time) as endtime
+set m1.end_time = endtime
+return m1
+
+
+LOAD CSV WITH HEADERS FROM 'file:///batter.csv' AS csvLine
+MATCH (n)
+WHERE csvLine.current_batter = n.name
+WITH n,csvLine, n.runs + toInt(csvLine.run_score) as runs
+set n.runs = runs
+return n.name as player, n.runs as runs
+
+LOAD CSV WITH HEADERS FROM 'file:///batter.csv' AS csvLine
+MATCH (n)
+WHERE csvLine.current_batter = n.name 
+WITH distinct n,csvLine, toInt(n.matches_played + 1) as matches 
+return distinct n.name as player,  matches
+
+
+return *
+START n=node(*) RETURN n;
+MATCH (n) DELETE n
+MATCH (n) where id(n) = xx DETACH DELETE n
